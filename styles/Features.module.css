@@ -1,0 +1,92 @@
+.features {
+  width: 100%;
+  padding: 30px 0;
+  padding-top: 70px;
+  background: #121314;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  background-image: url("../public/paper-notes-logo-bw.png");
+  background-repeat: no-repeat;
+  background-position: -50%;
+}
+
+.container {  
+  width: 100%;
+  /* max-width: 1344px; */
+  max-width: 1152px;
+  padding: 20px 10px;
+  height: 670px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.features_grid {
+  height: 90%;
+  width: 75%;
+  display: grid;
+  grid-template-columns: 50% 50%;
+  grid-row: auto auto;
+  grid-column-gap: 35px;
+  grid-row-gap: 100px;
+}
+
+.grid_item {
+  background-color: #181A1B;
+  border-radius: 30px;
+  -webkit-box-shadow: 0px 0px 21px 4px rgba(0,0,0,0.26);
+  -moz-box-shadow: 0px 0px 21px 4px rgba(0,0,0,0.26);
+  box-shadow: 0px 0px 21px 4px rgba(0,0,0,0.26);
+}
+
+.grid_icon_area {
+  position: absolute;
+  height: 80px;
+  width: 80px;
+  margin-left: 50px;
+  margin-top: -42px;
+  background: grey;
+  border-radius: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.color1 {
+  background: #E95065;
+}
+
+.color2 {
+  background: #46BDDF;
+}
+
+.color3 {
+  background: #52D273;
+}
+
+.color4 {
+  background: #E5C453;
+}
+
+.item_text_area {
+  height: 100%;
+  padding: 80px 50px 50px 50px;
+}
+
+.item_title {
+  margin: 0;
+  font-family: 'Open Sans';
+  font-weight: 700;
+  font-size: 25px;
+  color: white;
+}
+
+.item_desc {
+  margin: 0;
+  margin-top: 20px;
+  font-family: 'Open Sans';
+  font-size: 15px;
+  color: white;
+}
